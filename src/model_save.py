@@ -11,6 +11,7 @@ torch.save(vgg16, "vgg16_method1.pth")
 
 # 保存方式2，模型参数（官方推荐）
 torch.save(vgg16.state_dict(), "vgg16_method2.pth")
+#          网络模型的字典（参数）  指定路径
 
 # 陷阱
 class Tudui(nn.Module):
